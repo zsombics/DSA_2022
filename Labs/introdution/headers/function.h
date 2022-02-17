@@ -6,4 +6,9 @@
 #define LABS_FUNCTION_H
 //ket szam osszege
 int sum(int a, int b);
+int max(int a, int b, int c);
+int min(int a, int b, int c);
+void helyfoglalas(int *eletkor, int n);
+void random( int *eletkor, int n);
+void kiir(float *eletkor, int n);
 #endif //LABS_FUNCTION_H
