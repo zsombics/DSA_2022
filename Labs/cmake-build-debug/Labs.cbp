@@ -36,6 +36,9 @@
 				<Compiler>
 					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/Labs"/>
 					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/introdution/headers"/>
+					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/models"/>
+					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/manager"/>
+					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/shared/headers"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
@@ -56,6 +59,9 @@
 				<Compiler>
 					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/Labs"/>
 					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/introdution/headers"/>
+					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/models"/>
+					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/manager"/>
+					<Add directory="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/shared/headers"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
@@ -85,6 +91,48 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/introdution/src/main.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/manager/lab2.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/manager/lab2_manager.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/models/product.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/models/user.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/main.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/manager/lab2.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/manager/lab2_manager.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/models/product.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/models/user.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/shared/headers/constans.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/shared/headers/errors.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/shared/headers/messages.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/shared/src/errors.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/shared/src/messages.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/CMakeLists.txt">
