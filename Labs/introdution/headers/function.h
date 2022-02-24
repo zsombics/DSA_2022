@@ -11,4 +11,5 @@ int min(int a, int b, int c);
 void helyfoglalas(int *eletkor, int n);
 void random( int *eletkor, int n);
 void kiir(float *eletkor, int n);
+int teszt1( int n);
 #endif //LABS_FUNCTION_H

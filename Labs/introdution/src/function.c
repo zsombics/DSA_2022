@@ -45,3 +45,14 @@ void kiir(float *eletkor, int n) {
         printf("i", eletkor[i]);
     printf("\n");
 }
+int teszt1( int n){
+    int s;
+    while(n>9){
+        s=0;
+        while(n>0){
+           s=s+n%10;
+           n=n/10;
+        }
+        n=s;
+    }
+}
