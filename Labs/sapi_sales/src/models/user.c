@@ -36,6 +36,12 @@ char *getSpecializationType(enum SpecializationType specialization) {
             return "AUTOMATION";
         case ENGINEERING:
             return "ENGINEERING";
+        case GARDENING:
+            return "ENGINEERING";
+        case COMMUNICATION:
+            return "COMMUNICATION";
+        case TRANSLATING :
+            return "TRANSLATING";
         default: return "UNDEFINED";
     }
 }
