@@ -51,6 +51,28 @@ void createUser(User **user) {
     if(!(*user)){
         printErrorMessage(MEMORY_ALLOCATION);
     }
-  //  (*user)->id=
+  (*user)->id=++numerOfUsers;
+}
+
+void setUserData(User *user, char *name, enum UserType type, enum GenderType gender, enum SpecializationType specialization,
+                 int birthYear) {
+strcpy(user->name,name);
+user->type=type;
+user->gender=gender;
+user->specialization=specialization;
+user->birthYear=birthYear;
+}
+void printUser(User *user){
+    printf("%i\n", user->id);
+    printf("%s\n", user->name);
+    printf("%s", getUserType(user->type));
+    printf("%s", getGenderType(user->gender));
+    printf("%s", getSpecializationType(user->specialization));
+    printf("%i\n", user->birthYear);
+};
+
+void deleteUser(User **user){
+    free(*user);
+    (*user)=NULL;
 }
 

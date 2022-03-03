@@ -3,3 +3,10 @@
 //
 
 #include "../../headers/manager/lab2.h"
+
+void testUserFunctionalities(){
+User *user1;
+    createUser(&user1);
+    setUserData(user1,"John Peterson",STUDENT,MALE,COMPUTER_SCIENCE,2003);
+    printUser(user1);
+}
