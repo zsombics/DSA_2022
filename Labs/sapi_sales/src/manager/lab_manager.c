@@ -8,4 +8,5 @@
 
 void lab2(){
     testUserFunctionalities();
+    testProductFunctionalities();
 }

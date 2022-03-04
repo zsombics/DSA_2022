@@ -10,3 +10,6 @@ User *user1;
     setUserData(user1,"John Peterson",STUDENT,MALE,COMPUTER_SCIENCE,2003);
     printUser(user1);
 }
+void testProductFunctionalities(){
+    Product* product1= product(1,"Apple",FRUIT,10);
+}
