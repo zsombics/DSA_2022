@@ -34,7 +34,12 @@ void setProductData(Product *product, char *name, enum ProductType type,unsigned
     product->amount=amount;
     product->creationDate= time(NULL);
 }
-
+void printProduct(Product *product){
+    printf("%i\n", product->id);
+    printf("%s\n", product->name);
+    printf("%s", getProductType(product->type));
+    printf("%i\n", product->amount);
+};
 
 
 

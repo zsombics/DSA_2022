@@ -11,5 +11,8 @@ User *user1;
     printUser(user1);
 }
 void testProductFunctionalities(){
-    Product* product1= product(1,"Apple",FRUIT,10);
+    Product* product1;
+    createProduct(&product1);
+    setProductData(product1,"Apple",FRUIT,10);
+    printProduct(product1);
 }

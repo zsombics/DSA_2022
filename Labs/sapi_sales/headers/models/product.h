@@ -18,7 +18,7 @@ enum ProductType{
 };
 
 typedef struct {
-    int id;
+    unsigned int id;
     char name[20];
     enum ProductType type;
     unsigned int amount;
@@ -28,10 +28,12 @@ typedef struct {
 char* getProductType(enum ProductType type);
 
 Product* product(
-    int id,
+        unsigned int id,
     char name[20],
     enum ProductType type,
     unsigned int amount);
 void printProduct(Product* product);
+void createProduct(Product **product);
+void setProductData(Product *product, char *name, enum ProductType type,unsigned int amount);
 
 #endif //LABS_PRODUCT_H
