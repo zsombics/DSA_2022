@@ -55,12 +55,12 @@ void createUser(User **user) {
 }
 
 void setUserData(User *user, char *name, enum UserType type, enum GenderType gender, enum SpecializationType specialization,
-                 int birthYear) {
+                 BirthDate birthDate) {
 strcpy(user->name,name);
 user->type=type;
 user->gender=gender;
 user->specialization=specialization;
-user->birthYear=birthYear;
+user->birthDate=birthDate;
 }
 void printUser(User *user){
     printf("%i\n", user->id);
@@ -68,7 +68,7 @@ void printUser(User *user){
     printf("%s", getUserType(user->type));
     printf("%s", getGenderType(user->gender));
     printf("%s", getSpecializationType(user->specialization));
-    printf("%i\n", user->birthYear);
+    printf("%4i/%2i/%2i\n", user->birthDate.year, user->birthDate.month, user->birthDate.day);
 };
 
 void deleteUser(User **user){

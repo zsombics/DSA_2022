@@ -18,20 +18,26 @@ enum SpecializationType{
     INFORMATICS, COMPUTER_SCIENCE, TELECOMMUNICATION, AUTOMATION, ENGINEERING, GARDENING , COMMUNICATION,
     TRANSLATING
 };
+typedef struct {
+    unsigned int year;
+    unsigned int month;
+    unsigned int day;
+}BirthDate;
 typedef  struct{
     unsigned int id;
     char name[30];
     enum UserType type;
     enum GenderType gender;
     enum  SpecializationType specialization;
-    int birthYear;
+    BirthDate birthDate;
+
 }User;
 char* getUserType(enum UserType type);
 char* getGenderType(enum GenderType gender);
 char* getSpecializationType(enum SpecializationType specialization);
 void createUser(User **user);
 void setUserData(User *user, char name[30], enum UserType type, enum GenderType gender,
-        enum SpecializationType specialization, int birthYear);
+        enum SpecializationType specialization, BirthDate birthDate);
 void printUser(User *user);
 void deleteUser(User **user);
 #endif //LABS_USER_H
