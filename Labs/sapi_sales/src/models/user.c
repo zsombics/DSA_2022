@@ -51,7 +51,7 @@ void createUser(User **user) {
     if(!(*user)){
         printErrorMessage(MEMORY_ALLOCATION);
     }
-  (*user)->id=++numerOfUsers;
+  (*user)->id=++numberOfUsers;
 }
 
 void setUserData(User *user, char *name, enum UserType type, enum GenderType gender, enum SpecializationType specialization,
