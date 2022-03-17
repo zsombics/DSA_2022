@@ -9,7 +9,8 @@
 void testUserArrayFunctionalities(){
     UserArray *userArray;
     createUserArray(&userArray,MAX_USERS);
-    readUsers(userArray,FILE_IN_USERS_PRODUCTS);
+    readUsers(userArray,FILE_IN_USERS);
+    printUsers(userArray,CON);
 }
 void readUsers(UserArray *userArray, char *from){
     if(!freopen(from,"r",stdin))exit(-1);
@@ -50,6 +51,6 @@ void readUserProducts(User *user){
               &newProduct->name,
               &newProduct->type,
               &newProduct->amount);
-        addNewProductToUser(user,newProduct,i);
+     //   addNewProductToUser(user,newProduct,i);
     }
 }

@@ -34,6 +34,7 @@ Product* product(
     unsigned int amount);
 void printProduct(Product* product);
 void createProduct(Product **product);
+void deleteProduct(Product **product);
 void setProductData(Product *product, char *name, enum ProductType type,unsigned int amount);
 
 #endif //LABS_PRODUCT_H

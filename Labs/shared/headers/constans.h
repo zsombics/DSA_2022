@@ -12,9 +12,9 @@
 #define MAX_N 1000000
 #define MAX_PRODUCTS 1000000
 #define STACK_CAPACITY 5
-#define QUEUE_CAPACITY 1000000
+
 static  int numberOfUsers=0;
 static long long numberOfProducts = 0;
-#define FILE_IN_USERS "users.txt"
+#define FILE_IN_USERS "data.txt"
 #define FILE_OUT "output.txt"
 #endif //LABS_CONSTANTS_H

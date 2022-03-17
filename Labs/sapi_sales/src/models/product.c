@@ -40,6 +40,10 @@ void printProduct(Product *product){
     printf("%s", getProductType(product->type));
     printf("%i\n", product->amount);
 };
+void deleteProduct(Product **product){
+    free(*product);
+    (*product)=NULL;
+}
 
 
 

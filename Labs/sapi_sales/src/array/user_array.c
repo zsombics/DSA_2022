@@ -5,11 +5,11 @@
 #include "../../headers/array/user_array.h"
 
 void createUserArray(UserArray **userArray, unsigned int maxUsers) {
-    *userArray = malloc(sizeof(UserArray));
+    *userArray =(UserArray*) malloc(sizeof(UserArray));
     if (!(*userArray)) {
         printErrorMessage(MEMORY_ALLOCATION);
     }
-    (*userArray)->users = (malloc(maxUsers * sizeof(User *)));
+    (*userArray)->users = (User**)malloc(maxUsers * sizeof(User *));
     if (!(*userArray)->users) {
         printErrorMessage(MEMORY_ALLOCATION);
     }
@@ -30,10 +30,10 @@ void deleteUserArray(UserArray **userArray) {
 bool addNewUser(UserArray* userArray, User* newUser, int position){
     if(position<0 || position>= userArray->maxUsers){
         printf("Incorrect position");
-        return  false;
+        return  true;
     }
     userArray->users[position]=newUser;
-    return true;
+    return false;
 }
 User* getUserAtPosition(UserArray* userArray, int position){
     if(position<0 || position>= userArray->maxUsers){
@@ -42,3 +42,4 @@ User* getUserAtPosition(UserArray* userArray, int position){
     }
     return  userArray->users[position];
 }
+

@@ -4,6 +4,7 @@
 
 #ifndef LABS_LAB4_H
 #define LABS_LAB4_H
+#include "user_array.h"
 void testUserArrayFunctionalities();
 void readUsers(UserArray *userArray, char *from);
 void printUsers(UserArray *userArray, char *destination);
