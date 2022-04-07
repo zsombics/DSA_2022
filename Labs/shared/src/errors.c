@@ -12,6 +12,10 @@ switch(error){
         printf("File not found");
     case NULL_POINTER_EXCEPTION:
         printf("Null pointer exception");
+    case QUEUE_IS_FULL:
+        printf("Queue is full");
+    case QUEUE_IS_EMPTY:
+        printf("Queue is empty");
     default:
         printf("Underfined");
 }
