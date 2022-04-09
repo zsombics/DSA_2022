@@ -104,6 +104,9 @@
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/manager/lab4.h">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/manager/lab8.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/manager/lab_manager.h">
 			<Option target="Labs"/>
 		</Unit>
@@ -114,9 +117,6 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/queue/user_queue.h">
-			<Option target="Labs"/>
-		</Unit>
-		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/stack/stack.h">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/array/product_array.c">
@@ -134,6 +134,9 @@
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/manager/lab4.c">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/manager/lab8.c">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/manager/lab_manager.c">
 			<Option target="Labs"/>
 		</Unit>
@@ -144,9 +147,6 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/queue/user_queue.c">
-			<Option target="Labs"/>
-		</Unit>
-		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/stack/stack.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/shared/headers/constans.h">

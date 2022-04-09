@@ -10,8 +10,11 @@
 
 void lab2(){
     testUserFunctionalities();
-    testProductFunctionalities();
+  //  testProductFunctionalities();
 }
 void lab4(){
      testUserArrayFunctionalities();
+}
+void lab8(){
+    testUserQueueFunctionalities();
 }
