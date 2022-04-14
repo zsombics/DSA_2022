@@ -98,6 +98,9 @@
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/array/user_array.h">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/list/user_list.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/manager/lab2.h">
 			<Option target="Labs"/>
 		</Unit>
@@ -126,6 +129,9 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/array/user_array.c">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/list/user_list.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/main.c">

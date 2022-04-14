@@ -64,6 +64,7 @@ void printQueue(UserQueue* userQueue, char*destination){
             printf("Date: %4i/%2i/%2i\n\n", userQueue->users[i]->birthDate.year, userQueue->users[i]->birthDate.month, userQueue->users[i]->birthDate.day);
         }
     }
+    freopen(CON,"w",stdout);
 }
 void deleteQueue(UserQueue** userQueue){
 
