@@ -1,8 +1,4 @@
 Queue: 
-1. user:
-Name: John Peterson
-Type: STUDENT Gender: MALE Specialization: COMPUTER SCIENCE Date: 2008/ 5/12
-
 2. user:
 Name: CSEGEZI ZSOMBOR
 Type: STUDENT Gender: MALE Specialization: ENGINEERING Date: 2002/ 2/22
@@ -11,4 +7,3 @@ Type: STUDENT Gender: MALE Specialization: ENGINEERING Date: 2002/ 2/22
 Name: Arvai David
 Type: STUDENT Gender: MALE Specialization: COMPUTER SCIENCE Date: 2001/ 4/18
 
-3

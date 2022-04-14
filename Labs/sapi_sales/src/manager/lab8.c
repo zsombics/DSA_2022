@@ -23,9 +23,9 @@ void testUserQueueFunctionalities(){
     createUser(&user3);
     setUserData(user3,"Arvai David",STUDENT,MALE,COMPUTER_SCIENCE,data3);
     enqueue(userQueue,user3);
-    printQueue(userQueue,"userQueue.txt");
     dequeue(userQueue);
+    printQueue(userQueue,"userQueue.txt");
    // printQueue(userQueue,"userQueue.txt");
-    printf("%i",findElementInQueue(userQueue,3));
+  //  printf("%i",findElementInQueue(userQueue,3));
     deleteQueue(&userQueue);
 }
