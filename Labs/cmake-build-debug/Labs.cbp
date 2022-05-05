@@ -92,6 +92,9 @@
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/introdution/src/function.c">
 			<Option target="Labs"/>
 		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/UserBST/user_bst.h">
+			<Option target="Labs"/>
+		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/array/product_array.h">
 			<Option target="Labs"/>
 		</Unit>
@@ -123,6 +126,9 @@
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/headers/stack/stack.h">
+			<Option target="Labs"/>
+		</Unit>
+		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/UserBST/user_bst.c">
 			<Option target="Labs"/>
 		</Unit>
 		<Unit filename="C:/Users/zsomb/OneDrive/Dokumentumok/GitHub/DSA_2022/Labs/sapi_sales/src/array/product_array.c">
