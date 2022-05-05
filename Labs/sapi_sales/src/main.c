@@ -6,8 +6,7 @@
 // Created by zsomb on 2/24/2022.
 //
 int main(){
-    UserTreeNode* treeNode;
-    create(&treeNode);
+    UserTreeNode* treeNode=NULL;
     User *user1;
     BirthDate data1={2008,5,12};
     createUser(&user1);
@@ -23,5 +22,5 @@ int main(){
     createUser(&user3);
     setUserData(user3,"Arvai David",STUDENT,MALE,COMPUTER_SCIENCE,data3);
     insert(&treeNode,user3);
-    postorder(treeNode);
+    inorder(treeNode);
 }
